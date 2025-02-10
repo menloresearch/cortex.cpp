@@ -92,26 +92,26 @@ curl --request POST \
       {
         "bytes": 0,
         "checksum": "N/A",
-        "downloadUrl": "https://huggingface.co/cortexso/tinyllama/resolve/1b-gguf-q3-km/metadata.yml",
-        "downloadedBytes": 0,
+        "download_url": "https://huggingface.co/cortexso/tinyllama/resolve/1b-gguf-q3-km/metadata.yml",
+        "downloaded_bytes": 0,
         "id": "metadata.yml",
-        "localPath": "/home/rpg/cortexcpp/models/cortex.so/tinyllama/1b-gguf-q3-km/metadata.yml"
+        "local_path": "/home/rpg/cortexcpp/models/cortex.so/tinyllama/1b-gguf-q3-km/metadata.yml"
       },
       {
         "bytes": 0,
         "checksum": "N/A",
-        "downloadUrl": "https://huggingface.co/cortexso/tinyllama/resolve/1b-gguf-q3-km/model.gguf",
-        "downloadedBytes": 0,
+        "download_url": "https://huggingface.co/cortexso/tinyllama/resolve/1b-gguf-q3-km/model.gguf",
+        "downloaded_bytes": 0,
         "id": "model.gguf",
-        "localPath": "/home/rpg/cortexcpp/models/cortex.so/tinyllama/1b-gguf-q3-km/model.gguf"
+        "local_path": "/home/rpg/cortexcpp/models/cortex.so/tinyllama/1b-gguf-q3-km/model.gguf"
       },
       {
         "bytes": 0,
         "checksum": "N/A",
-        "downloadUrl": "https://huggingface.co/cortexso/tinyllama/resolve/1b-gguf-q3-km/model.yml",
-        "downloadedBytes": 0,
+        "download_url": "https://huggingface.co/cortexso/tinyllama/resolve/1b-gguf-q3-km/model.yml",
+        "downloaded_bytes": 0,
         "id": "model.yml",
-        "localPath": "/home/rpg/cortexcpp/models/cortex.so/tinyllama/1b-gguf-q3-km/model.yml"
+        "local_path": "/home/rpg/cortexcpp/models/cortex.so/tinyllama/1b-gguf-q3-km/model.yml"
       }
     ],
     "type": "Model"
@@ -128,7 +128,7 @@ The downloaded models are saved to the [Cortex Data Folder](/docs/architecture/d
 curl --request DELETE \
   --url http://127.0.0.1:39281/v1/models/pull \
   --header 'Content-Type: application/json' \
-  --data '{"taskId": "tinyllama:tinyllama:1b-gguf-q3-km"}'
+  --data '{"task_id": "tinyllama:tinyllama:1b-gguf-q3-km"}'
 ```
 
 ### List All Models
